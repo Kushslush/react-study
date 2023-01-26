@@ -1,0 +1,67 @@
+.product-card {
+  display: flex;
+  margin: auto auto;
+  width: 600px;
+  height: 450px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden
+//  обрезка картинки
+}
+
+.product-card-column {
+  display: flex;
+  height: 450px;
+}
+
+.product-card-column-content {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 30px 30px 30px;
+}
+
+.product-card-column-category-item {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #9d9ea2;
+  margin: 0 0 15px 0;
+}
+
+.product-card-column-title-item {
+  font-family: 'Fraunces', serif;
+  font-size: 32px;
+  color: #192229;
+}
+
+.product-card-column-description-item {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+
+  line-height: 160%;
+
+  color: #94959b;
+  margin: 15px 0 25px 0;
+}
+
+.product-card-column-price-row {
+  display: flex;
+  align-items: center;
+  margin: 0 0 25px 0;
+}
+
+.product-card-column-price-item {
+  font-family: 'Fraunces', serif;
+  font-size: 30px;
+  color: #3d8168;
+
+  margin: 0 20px 0 0 ;
+}
+
+.product-card-column-salePrice-item {
+  //font-family: 'Fraunces', serif;
+  font-size: 14px;
+  color: #94959b;
+
+  text-decoration: line-through;
+}
